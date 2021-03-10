@@ -20,3 +20,11 @@
     padding: 0;
     color: red;
 }
+#email-label {
+    color: red;
+    padding-left: 800;
+}
+#submit-label {
+    margin-top: 100px;
+    padding-left: 800;
+}
