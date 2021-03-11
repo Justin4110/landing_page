@@ -3,28 +3,54 @@
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100;
 }
 .container img {
     width: 100%;
     height: auto;
 }
-#nav-bar {
-    text-align: center;
-    background-color: red;
-    margin-left: 300;
-    margin-right: 300;
-}
-#ul {
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: red;
+    background-color: rgb(119, 116, 119);
+    
 }
 #email-label {
     color: red;
-    padding-left: 800;
+    margin-left: 850;
 }
 #submit-label {
     margin-top: 100px;
-    padding-left: 800;
+    margin-left: 850;
+    color: red;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    
+}
+li {
+    border-right: 1px solid #bbb;
+    float: left;
+}
+a {
+    display: block;
+    padding: 5px;
+}
+p {
+    text-align: center;
+    font-size: 35px;
+}
+iframe {
+    margin-left: 700;
 }
