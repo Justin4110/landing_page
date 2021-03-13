@@ -3,23 +3,20 @@
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100;
+    padding-top: 500;
 }
 .container img {
     width: 100%;
     height: auto;
 }
-ul {
+#nav-bar {
     position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
+    top: 0;    
     margin: 0;
     padding: 0;
-    background-color: rgb(119, 116, 119);
-    
+    background-color: rgb(119, 116, 119);       
 }
-#email-label {
+#contact {
     color: red;
     margin-left: 850;
 }
@@ -31,9 +28,10 @@ ul {
 li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 15px 15px;
+    text-align: left;
+    padding: 0px 20px 20px;
     text-decoration: none;
+    list-style-type: none;
 }
 li a:hover {
     background-color: #555;
@@ -53,4 +51,24 @@ p {
 }
 iframe {
     margin-left: 700;
+}
+.flex-container {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 500;
+    margin-right: 500;
+}
+.flex-container > div {
+    background-color: grey;
+    padding: 100px;
+    margin: 30px;
+    font-size: 20px;
+}
+#main {
+    background-color: rgb(168, 167, 167);
+}
+@media only screen and (max-width: 900px) {
+    main {background-color: hotpink;}
 }
